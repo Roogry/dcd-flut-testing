@@ -1,5 +1,5 @@
 name: dicodingacademy
-description: A new Flutter application.
+description: This repository contains a Flutter mobile application developed for learning fundamental flutter development based on Dicoding Class. The application focuses on creating automated testing. Automated testing in Flutter is divided into three categories, including unit tests, widget tests, and integration tests.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
