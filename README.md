@@ -19,3 +19,27 @@ Widget test menguji sebuah widget sehingga memverifikasi bahwa UI widget terliha
 
 #### [3] Integration Testing
 Integration testing menguji sebagian atau seluruh aplikasi sehingga memverifikasi bahwa semua widget dan fitur telah berjalan sesuai harapan dan juga bisa untuk mengetahui performa aplikasi.
+
+## Running Tests
+
+To run tests, run the following command
+
+#### Unit Testing
+```bash
+  flutter test test/provider/done_module_provider_test.dart
+```
+
+#### Widget Testing
+```bash
+  flutter test test/ui/module_page_test.dart
+```
+
+#### Integration Testing
+```bash
+  flutter test integration_test/app_test.dart
+```
+
+To test the performance run below. Test report in the build folder with the name timeline.timeline.json.
+```bash
+  flutter drive --driver=test_driver/perf_driver.dart --target=integration_test/app_test.dart --no-dds
+```
